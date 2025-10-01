@@ -1,15 +1,14 @@
 import { Button } from './components/ui/button';
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 
 function App() {
-
   const [message, setMessage] = useState('');
 
   useEffect(() => {
     fetch('/api/hello')
-      .then(res => res.json())
-      .then(data => setMessage(data.message))
-  }, [])
+      .then((res) => res.json())
+      .then((data) => setMessage(data.message));
+  }, []);
 
   return (
     <>
@@ -17,10 +16,8 @@ function App() {
         <p className="font-bold text-3xl">{message}</p>
         <Button>Click me</Button>
       </div>
-    
     </>
-    
-  )
+  );
 }
 
-export default App
+export default App;
