@@ -1,4 +1,4 @@
-# mai
+# full-stack-template
 
 To install dependencies:
 
