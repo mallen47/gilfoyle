@@ -1,4 +1,4 @@
-import { useState, useRef, type KeyboardEvent } from 'react';
+import { useState, useRef } from 'react';
 import axios from 'axios';
 import TypingIndicator from './TypingIndicator';
 import type { Message } from './ChatMessages';
