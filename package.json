@@ -13,7 +13,8 @@
     "concurrently": "^9.2.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.3",
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+    "prisma": "^6.17.1"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -22,6 +23,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "@prisma/client": "^6.17.1",
     "axios": "^1.12.2",
     "react-hook-form": "^7.64.0",
     "react-icons": "^5.5.0",
